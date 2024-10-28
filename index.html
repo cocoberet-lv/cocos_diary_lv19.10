@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coco'sラトビア滞在記</title>
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Klee+One&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Dancing+Script:wght@400..700&family=Noto+Sans+JP&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container flex Klee">
+            <a href="" class="logo">
+                <span>Coco's</span> ラトビア滞在記
+            </a>
+            <nav>
+                <!-- menuを書くタグ -->
+                <ul class="header_menu flex fraunce">
+                    <li><a href="#diary">diary</a></li>
+                    <li><a href="#information">information</a></li>
+                    <!-- <li><a href="#pictures">pictures</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--sectionタグは見出しとセットで使ってコンテンツを章だてて文章構造を明確に-->
+        <section id="hero" class="container">
+            <div class="hero_inner">
+                <p>canal boart tour</p>
+                <!-- <h1>写真の上の文字</h1> -->
+            </div>
+        </section>
+
+        <!-- diaryのリンクに繋がっている -->
+        <section id="diary" class="container">
+            <div class="date">19October</div> <!--背景に透かしている文字 -->
+            <h2 class="title fraunce">diary </h2>
+
+            <h3 class="Klee">リガ運河クルーズ</h3>
+            <!-- 横並び(文章と写真)全体のdivタグ -->
+            <div class="flex">
+                <!-- 左側　文章 -->
+                <div class="diary-2">
+                    <p class="text">
+                        以前から気になっていた運河ボートに乗ってみました！夏にラトビアへ来てから寒くなる前に乗ろうと思いつつ、いつの間にか10月になっていました。本日の気温は9度(12時)天気は快晴、ボート日和です。
+                        <br>
+                        ボートはイギリス製で、レトロな雰囲気がとても素敵でした。出発地点は自由の記念碑近くの公園で、ダウガヴァ川を一周するクルーズです。川からは、旧市街やリガ城、ラトビア国立オペラハウスなど、多くの観光名所を眺めることができます。音声ガイドもあるようですが、スマホの電波が弱く、使用できませんでした。しかし、船長さんが名所があるたびに近くに来て説明してくれ、お客さんも話しかけてくれたのでとても温かい気持ちになりました。たっぷり1時間のクルーズで体は冷えましたが秋の紅葉とリガの景色が堪能できてとても美しい時間でした。
+
+                    </p>
+                </div>
+                <!-- 右側　cssで画像の挿入 -->
+                <div class="diary-2 diary-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="information" class="container">
+            <h2 class="title fraunce">information</h2>
+            <div class="date-2">Riga Canal Boat </div>
+            <div class="information_inner flex">
+                <!-- <div class="information-40"> -->
+                <div class="map">
+                    <h3>
+                        ボート出発地点
+                    </h3>
+                    <iframe
+                        src="
+                        https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4728.828666689688!2d24.11262248110096!3d56.951375477412256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfd1a8079ebd%3A0x6aa73f8eeada7ad5!2sRiga%20by%20Canal!5e1!3m2!1sen!2sau!4v1729945013239!5m2!1sen!2sau"
+                        width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="information-55 text-wide">
+                    <!-- <h3>小見出し</h3> -->
+                    <p>営業日時：毎日(土日、祝日を含む)<br>
+                        営業時間：10:00~18:00(最終便18時発、季節によって17時まで)<br>
+                        運行時間：20~30分ごと<br>
+                        営業期間：~10月31日
+                    </p>
+                    <table>
+                        <tr>
+                            <th>料金</th>
+                            <th></th>
+                            <th>ネット予約</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>大人<br>学生<br>子ども</td>
+                            <td>20ユーロ<br>15ユーロ<br>12ユーロ</td>
+                            <td>大人<br>学生<br>子ども</td>
+                            <td>16ユーロ<br>13ユーロ<br>10ユーロ</td>
+                        </tr>
+                    </table>
+                    <p>
+                        詳しくは↓の公式サイトで確認してください<br>
+                        <a href="https://rigabycanal.lv/en/" target="_blank">Riga By Canal</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="flex"> <!--画像の大きさがバラバラなのでcssで背景として入れる-->
+            <div class="column-a"></div>
+            <div class="column-b"></div>
+            <div class="column-c"></div>
+            <div class="column-d"></div>
+        </div>
+
+    </main>
+
+    <footer>
+        <a href="" class="logo Klee">
+            <span>Coco's</span> ラトビア滞在記
+        </a>
+        <div class="copyright">@ coco's latvia diary</div>
+    </footer>
+</body>
+
+</html>
