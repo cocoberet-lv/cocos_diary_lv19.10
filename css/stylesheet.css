@@ -358,6 +358,7 @@ header {
         padding: 1em 0.7em
     }
 }
+
 /* contact */
 #contact {
     margin-bottom: 60px;
@@ -373,7 +374,6 @@ header {
     padding: 20px 0;
     font-weight: 500;
     border-bottom: solid 1px #777e41;
-    ;
 }
 
 #contact dd {
